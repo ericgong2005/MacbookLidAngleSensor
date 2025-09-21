@@ -97,7 +97,7 @@ int main() {
 
     while (1) {
         double angle = readLidAngle(device);
-        printf("Lid Angle: %.1f°\n", angle);
+        printf("Lid Angle: %f\n", angle);
         usleep(500000); // 0.5 seconds
     }
 
